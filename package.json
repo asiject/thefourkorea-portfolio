@@ -1,6 +1,5 @@
 {
   "name": "frontend-admin-patterns",
-  "private": false,
   "version": "1.0.0",
   "description": "Sanitized frontend patterns extracted from a private B2B training platform",
   "workspaces": [
