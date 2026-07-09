@@ -1,0 +1,17 @@
+{
+  "name": "frontend-admin-patterns",
+  "private": false,
+  "version": "1.0.0",
+  "description": "Sanitized frontend patterns extracted from a private B2B training platform",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:form": "yarn workspace @portfolio/controlled-form dev",
+    "dev:dnd": "yarn workspace @portfolio/admin-dnd-board dev",
+    "dev:auth": "yarn workspace @portfolio/social-auth-callback dev",
+    "build": "yarn workspaces foreach -A run build",
+    "lint": "yarn workspaces foreach -A run lint"
+  },
+  "packageManager": "yarn@4.0.0"
+}
